@@ -107,6 +107,7 @@ button:focus {
 .section__block i {
 	position: absolute;
 	right: 2em;
+	bottom: 2em;
 	animation: scrollIndicatorSlideIn 0.5s 3.1s ease-in both,
 		scrollIndicatorJump 3s 4s ease-in-out infinite;
 }
