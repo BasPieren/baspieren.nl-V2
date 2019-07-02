@@ -5,6 +5,16 @@
 	z-index: 999;
 }
 
+.header__logo {
+	width: auto;
+	height: 1.5em;
+	transition: all 0.2s 0.2s;
+}
+
+.header__logo--white {
+	fill: var(--white);
+}
+
 .header__button {
 	margin: 0 0 0 auto;
 }
@@ -37,7 +47,7 @@
 
 .mobileNav__container {
 	justify-content: space-between;
-	height: 25%;
+	height: 50%;
 }
 
 .mobileNav__item {
