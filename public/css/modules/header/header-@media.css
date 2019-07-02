@@ -1,0 +1,34 @@
+@media (min-width: 768px) {
+	.header {
+		padding: var(--tablet-padding);
+	}
+
+	.header__button {
+		display: none;
+	}
+
+	.header__desktopNav {
+		display: flex !important;
+		justify-content: space-between;
+		margin: 0 0 0 auto;
+		width: 25%;
+	}
+
+	.header__desktopNav__item {
+		font-size: 1em;
+		color: var(--black);
+		text-decoration: none;
+		text-transform: capitalize;
+		transition: all 0.2s;
+	}
+
+	.header__desktopNav__item:hover {
+		color: var(--secondary-color);
+	}
+}
+
+@media (min-width: 1080px) {
+	.header__desktopNav {
+		width: 20%;
+	}
+}

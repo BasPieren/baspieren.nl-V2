@@ -1,0 +1,48 @@
+.header {
+	position: fixed;
+	padding: var(--mobile-padding);
+	width: 100%;
+	z-index: 999;
+}
+
+.header__button {
+	margin: 0 0 0 auto;
+}
+
+.header__button i {
+	font-size: 2em;
+	transition: all 0.2s;
+}
+
+.header__button__icon--white {
+	color: var(--white);
+}
+
+/* ----- MOBILE NAV ----- */
+
+.mobileNav {
+	position: fixed;
+	padding: var(--mobile-padding);
+	right: -100vw;
+	width: 100vw;
+	height: 100%;
+	background-color: var(--secondary-color);
+	transition: 0.5s ease-in-out;
+	z-index: 998;
+}
+
+.mobileNav--show {
+	right: 0;
+}
+
+.mobileNav__container {
+	justify-content: space-between;
+	height: 25%;
+}
+
+.mobileNav__item {
+	color: var(--white);
+	font-size: 2em;
+	text-decoration: none;
+	text-transform: capitalize;
+}

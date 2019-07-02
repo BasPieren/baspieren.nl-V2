@@ -15,6 +15,26 @@
 	</head>
 
 	<body>
+		<header class="header display--flex-h">
+			<button class="header__button">
+				<i class="fas fa-bars"></i>
+			</button>
+
+			<nav class="header__desktopNav display--none">
+				<a class="header__desktopNav__item" href="#work">work</a>
+				<a class="header__desktopNav__item" href="#about">about</a>
+				<a class="header__desktopNav__item" href="#contact">contact</a>
+			</nav>
+		</header>
+
+		<aside class="display--flex-v mobileNav">
+			<nav class="display--flex-v mobileNav__container">
+				<a class="mobileNav__item" href="#about">about</a>
+				<a class="mobileNav__item" href="#work">work</a>
+				<a class="mobileNav__item" href="#contact">contact</a>
+			</nav>
+		</aside>
+
 		<h1>Hello World!</h1>
 
 		<script src="public/js/script.js" type="module"></script>

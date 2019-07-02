@@ -1,0 +1,12 @@
+:root {
+	/* ----- COLOR ----- */
+	--black: #000000;
+	--white: #ffffff;
+	--grey: #f5f5f5;
+	--secondary-color: #d93551;
+
+	/* ----- PADDING ----- */
+	--mobile-padding: 2em;
+	--tablet-padding: 3em;
+	--desktop-padding: 4em;
+}
