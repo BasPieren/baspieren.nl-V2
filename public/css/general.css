@@ -92,9 +92,9 @@ button:focus {
 }
 
 .section__copy {
-	max-width: 500px;
+	max-width: 600px;
 	color: var(--copy);
-	font-size: 1em;
+	font-size: 1.25em;
 	line-height: 1.6em;
 }
 
@@ -108,7 +108,7 @@ button:focus {
 
 .section__copy--comment {
 	color: var(--copy);
-	font-size: 1em;
+	font-size: 0.8em;
 }
 
 .section__link {
