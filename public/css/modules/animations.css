@@ -1,3 +1,7 @@
+.animation--topSlideIn {
+	animation: topSlideIn 0.5s 4.5s ease-in both;
+}
+
 @keyframes topSlideIn {
 	from {
 		opacity: 0;
