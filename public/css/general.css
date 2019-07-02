@@ -35,7 +35,7 @@ button:focus {
 .display--flex-v {
 	display: flex;
 	flex-direction: column;
-	justify-content: center;
+	justify-content: space-between;
 }
 
 .overflow--hidden {
@@ -44,7 +44,7 @@ button:focus {
 
 .section {
 	padding: 2em;
-	height: 100vh;
+	min-height: 100vh;
 }
 
 .section__heading {
@@ -82,6 +82,10 @@ button:focus {
 	line-height: 1.6em;
 }
 
+.section__copy--black {
+	color: var(--black);
+}
+
 .section:first-of-type .section__copy {
 	animation: fadeIn 0.5s 4s ease-in both;
 }
@@ -115,4 +119,33 @@ button:focus {
 
 .copy--red {
 	color: var(--secondary-color);
+}
+
+.copy--white {
+	color: var(--white);
+}
+
+.copy--pink {
+	color: var(--pink);
+}
+
+.copy--function {
+	color: var(--green);
+}
+
+.copy--string {
+	color: var(--yellow);
+}
+
+.copy--orange {
+	color: var(--orange);
+}
+
+.copy--number {
+	color: var(--purple);
+}
+
+.copy--blue {
+	color: var(--blue);
+	font-style: italic;
 }
