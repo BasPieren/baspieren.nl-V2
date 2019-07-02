@@ -3,6 +3,7 @@
 	padding: var(--mobile-padding);
 	width: 100%;
 	z-index: 999;
+	animation: topSlideIn 0.5s 4.5s ease-in both;
 }
 
 .header__logo {

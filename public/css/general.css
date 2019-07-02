@@ -41,3 +41,76 @@ button:focus {
 .overflow--hidden {
 	overflow: hidden;
 }
+
+.section {
+	padding: 2em;
+	height: 100vh;
+}
+
+.section__heading {
+	margin: 0 0 2em 0;
+	font-size: 1.125em;
+}
+
+.section__heading--margin-0 {
+	margin: 0;
+}
+
+.section__heading--topMargin-auto {
+	margin-top: auto;
+}
+
+.section__heading--large {
+	margin: 1em 0;
+	font-size: 2.8125em;
+	animation: fadeIn 0.5s 3.5s ease-in both;
+}
+
+.section__heading--fancy {
+	font-family: "DM Serif Display", serif;
+	font-style: italic;
+}
+
+.section__heading--mono {
+	font-family: "Fira Mono", monospace;
+	font-weight: 500;
+}
+
+.section__copy {
+	color: var(--copy);
+	font-size: 1.25em;
+	line-height: 1.6em;
+}
+
+.section:first-of-type .section__copy {
+	animation: fadeIn 0.5s 4s ease-in both;
+}
+
+.section__copy--comment {
+	color: var(--copy);
+	font-size: 1em;
+}
+
+.section__link {
+	color: var(--secondary-color);
+	line-height: 1.6em;
+}
+
+.section__block {
+	margin: auto 0 0 0;
+}
+
+.section:first-of-type .section__block {
+	animation: topSlideIn 0.5s 4.5s ease-in both;
+}
+
+.section__block i {
+	position: absolute;
+	right: 2em;
+	animation: scrollIndicatorSlideIn 0.5s 3.1s ease-in both,
+		scrollIndicatorJump 3s 4s ease-in-out infinite;
+}
+
+.copy--red {
+	color: var(--secondary-color);
+}

@@ -15,6 +15,8 @@
 	</head>
 
 	<body>
+		<h1>Hello World!</h1>
+
 		<header class="header display--flex-h">
 			<a href="#">
 				<svg
@@ -63,16 +65,45 @@
 			</nav>
 		</header>
 
-		<aside class="display--flex-v mobileNav">
-			<nav class="display--flex-v mobileNav__container">
+		<aside class="mobileNav display--flex-v">
+			<nav class="mobileNav__container display--flex-v">
 				<a class="mobileNav__item" href="#about">about</a>
 				<a class="mobileNav__item" href="#work">work</a>
 				<a class="mobileNav__item" href="#contact">contact</a>
 			</nav>
 		</aside>
 
-		<h1>Hello World!</h1>
+		<main>
+			<section class="section display--flex-v">
+				<h3 class="section__heading section__heading--topMargin-auto"></h3>
 
+				<h2 class="section__heading--large">
+					<span class="section__heading--fancy">Creative.</span>
+					<span class="section__heading--mono">Developer;</span>
+				</h2>
+
+				<p class="section__copy">
+					I focus on designing and building websites and other digital products.
+					Want to
+					<a
+						class="section__link"
+						href="mailto:bas.pieren@quicknet.nl"
+						target="_top"
+						>contact me</a
+					>? Go ahead!
+				</p>
+
+				<div class="section__block display--flex-h">
+					<p class="section__copy--comment section__heading--mono">
+						// Scroll Down
+					</p>
+
+					<i class="fas fa-chevron-down copy--red"></i>
+				</div>
+			</section>
+		</main>
+
+		<script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.9"></script>
 		<script src="public/js/script.js" type="module"></script>
 	</body>
 </html>

@@ -28,6 +28,10 @@
 }
 
 @media (min-width: 1080px) {
+	.header {
+		padding: var(--desktop-padding);
+	}
+
 	.header__desktopNav {
 		width: 20%;
 	}

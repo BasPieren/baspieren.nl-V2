@@ -1,0 +1,19 @@
+@media (min-width: 768px) {
+	.section {
+		padding: 2em var(--tablet-padding);
+	}
+
+	.section__block i {
+		right: var(--tablet-padding);
+	}
+}
+
+@media (min-width: 1080px) {
+	.section {
+		padding: 2em var(--desktop-padding);
+	}
+
+	.section__block i {
+		right: var(--desktop-padding);
+	}
+}
