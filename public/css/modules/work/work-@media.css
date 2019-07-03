@@ -1,0 +1,11 @@
+@media (min-width: 768px) {
+	.project__wrapper {
+		grid-template-columns: 1fr 1fr;
+	}
+}
+
+@media (min-width: 1080px) {
+	.project__wrapper {
+		grid-template-columns: 1fr 1fr 1fr;
+	}
+}

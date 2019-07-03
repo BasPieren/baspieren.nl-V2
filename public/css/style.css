@@ -9,6 +9,10 @@
 @import "modules/header/header-@media.css";
 
 /* ---------- ABOUT ---------- */
+@import "modules/work/work.css";
+@import "modules/work/work-@media.css";
+
+/* ---------- ABOUT ---------- */
 @import "modules/about/about.css";
 
 /* ---------- CONTACT ---------- */

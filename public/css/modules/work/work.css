@@ -1,0 +1,30 @@
+.project__wrapper {
+	display: grid;
+	grid-template-columns: 1fr;
+	grid-gap: 1em;
+	margin: 0 0 3em 0;
+}
+
+.project {
+	padding: 2em;
+	background-color: var(--black-2);
+	box-shadow: 0 22px 24px 0 rgba(0, 0, 0, 0.2);
+}
+
+.project__heading,
+.project__copy {
+	color: var(--white);
+}
+
+.project__heading {
+	margin: 0 0 0.5em 0;
+}
+
+.project__copy {
+	margin: 0 0 2em 0;
+	font-size: 0.9em;
+}
+
+.project .button {
+	margin-top: auto;
+}
