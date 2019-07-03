@@ -112,8 +112,8 @@ button:focus {
 	line-height: 1.6em;
 }
 
-.section__copy--black {
-	color: var(--black);
+.section__copy--white {
+	color: var(--white);
 }
 
 .section:first-of-type .section__copy {
