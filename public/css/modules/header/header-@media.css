@@ -29,7 +29,7 @@
 
 @media (min-width: 1080px) {
 	.header {
-		padding: var(--desktop-padding);
+		padding: var(--tablet-padding) var(--desktop-padding);
 	}
 
 	.header__desktopNav {
