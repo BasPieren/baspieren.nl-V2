@@ -6,9 +6,16 @@
 }
 
 .project {
-	padding: 2em;
-	background-color: var(--black-2);
 	box-shadow: 0 22px 24px 0 rgba(0, 0, 0, 0.2);
+	background-position: center center;
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+.project__container {
+	padding: 2em;
+	height: 100%;
+	background-color: rgba(41, 40, 40, 0.8);
 }
 
 .project__heading,
