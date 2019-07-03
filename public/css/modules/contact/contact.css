@@ -1,0 +1,8 @@
+.contact {
+	margin: 3em 0;
+}
+
+.contact__item i {
+	margin: 0 0.25em 0 0;
+	font-size: 2em;
+}

@@ -11,5 +11,8 @@
 /* ---------- ABOUT ---------- */
 @import "modules/about/about.css";
 
+/* ---------- CONTACT ---------- */
+@import "modules/contact/contact.css";
+
 /* ---------- ANIMATIONS ---------- */
 @import "modules/animations.css";
