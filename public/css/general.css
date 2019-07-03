@@ -13,6 +13,10 @@ body {
 	background-color: var(--grey);
 }
 
+ul {
+	list-style: none;
+}
+
 button {
 	background-color: rgba(0, 0, 0, 0);
 	border: none;
@@ -35,7 +39,6 @@ button:focus {
 .display--flex-v {
 	display: flex;
 	flex-direction: column;
-	justify-content: space-between;
 }
 
 .overflow--hidden {
@@ -59,11 +62,14 @@ button:focus {
 
 .section {
 	padding: 2em;
+}
+
+.section--minHeight {
 	min-height: 100vh;
 }
 
 .section__heading {
-	margin: 0 0 2em 0;
+	margin: 0 0 1em 0;
 	font-size: 1.125em;
 }
 
@@ -91,6 +97,14 @@ button:focus {
 	font-weight: 500;
 }
 
+.section__divider {
+	margin: 0 0 3em 0;
+	width: 100%;
+	height: 1px;
+	background-color: var(--copy);
+	opacity: 0.2;
+}
+
 .section__copy {
 	max-width: 600px;
 	color: var(--copy);
@@ -114,6 +128,11 @@ button:focus {
 .section__link {
 	color: var(--secondary-color);
 	line-height: 1.6em;
+	transition: all 0.2s;
+}
+
+.section__link:hover {
+	color: var(--copy);
 }
 
 .section__block {
@@ -164,4 +183,36 @@ button:focus {
 .copy--blue {
 	color: var(--blue);
 	font-style: italic;
+}
+
+.button {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	padding: 1.5em 3em;
+	width: 100%;
+	color: var(--black);
+	font-weight: 700;
+	text-align: center;
+	text-decoration: none;
+	text-transform: uppercase;
+	border-radius: 50px;
+	transition: all 0.2s;
+}
+
+.button--ghost {
+	border: 1px solid var(--secondary-color);
+	box-shadow: 0px 0px 10px 0px rgba(217, 53, 81, 1);
+}
+
+.button--ghost:hover,
+.button--ghost:active {
+	color: var(--white);
+	background-color: var(--secondary-color);
+	box-shadow: none;
+}
+
+.button__icon {
+	margin-right: 1em;
+	font-size: 2em;
 }
