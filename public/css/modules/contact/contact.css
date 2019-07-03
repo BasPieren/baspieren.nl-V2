@@ -1,12 +1,25 @@
 .contact {
-	margin: 3em 0;
+	margin: 2em 0 3em 0;
 }
 
 .contact__item {
+	margin: 0.25em 0;
 	font-size: 1.25em;
+}
+
+.contact__item:first-of-type {
+	margin-top: 0;
+}
+
+.contact__item:last-of-type {
+	margin-bottom: 0;
 }
 
 .contact__item i {
 	margin: 0 0.25em 0 0;
 	font-size: 2em;
+}
+
+.contact__item a {
+	margin: 0 auto 0 0;
 }
